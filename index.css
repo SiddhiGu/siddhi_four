@@ -39,15 +39,17 @@ color:black;
     background-color:#246BFD;
     margin-top:48px;
     color:white;
+    border:none;
 }
 .section_3{
     padding-top:120px;
-    padding-left:314px;
+   
+    
   
 }
 .section_3 .top_content{
    
-    width:812px;
+   text-align: center;
    
 
 
@@ -157,6 +159,7 @@ font-weight: 700;
     .section_3{
         padding-top:120px;
         padding-left:100px;
+       
       
     }
     .section_3 .top_content{
