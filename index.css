@@ -6,20 +6,20 @@
     align-items: center;
     display:flex;
     gap:104px;
-    padding-bottom:165px;
+    
 }
 .section_2 .section_2_content .left_column img{
     width:100%;
 }
 .section_2 .section_2_content .right_column{
-    width:518px;
+    max-width:518px;
 }
 .section_2 .section_2_content .right_column h1{
 font-family:'DM Sans';
 font-size: 40px;
 font-weight: 700;
 text-align: left;
-color:black;   
+color:rgba(23, 28, 38, 1);   
 }
 .section_2 .section_2_content .right_column p{
     font-family:'DM Sans';
@@ -28,12 +28,14 @@ color:black;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
+    color:rgba(115, 117, 136, 1);
 }
 .section_2 .section_2_content .right_column .cta_button{
     background-color:#246BFD;
     margin-top:48px;
     color:white;
-    border:none;    
+    border:none; 
+    font-family: 'DM Sans';   
 }
 .section_3{
     padding-top:120px;
@@ -75,13 +77,40 @@ padding-bottom: 50px;
     width:255px;
     height:255px;
     position: relative;
+    border-radius:4px;
+ 
 
 }
-.section_3 .container .box .topright {
+
+
+
+
+
+.section_3 .container .box:hover:before{
+    transition: all .3s ease;
+    box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:26px;
+    height:21px;
+    background-image:url('./images/Vector (3).png');
+    top:6px;
+    right:4px;
+    opacity: 1;
+    content:"";
+  
+ 
+ 
+   
+}
+
+
+/*.section_3 .container .box .topright {
     position: absolute;
     top: 3px;
     right:1px;
-}
+}*/
 .section_3 .container .box .img{
     display: flex;
     align-items: center;
@@ -92,7 +121,7 @@ padding-bottom: 50px;
 }
 .section_3 .container .box  .paragraph {
     position: absolute;
-    bottom:18px;
+    bottom:10px;
     margin-left:93px;
  }
 .section_3 .container .box  .paragraph  p {
@@ -101,7 +130,7 @@ font-family:'DM Sans';
 font-size: 15px;
 font-weight: 700;
 }
-@media only screen and (min-width: 430px) and (max-width:767px){
+@media only screen and (min-width: 320px) and (max-width:767px){
     .section_2 .section_2_content{
   
       
