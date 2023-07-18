@@ -18,7 +18,7 @@ font-family:'DM Sans';
 font-size: 40px;
 font-weight: 700;
 text-align: left;
-color:black;
+color:black;   
 }
 .section_2 .section_2_content .right_column p{
     font-family:'DM Sans';
@@ -32,12 +32,13 @@ color:black;
     background-color:#246BFD;
     margin-top:48px;
     color:white;
-    border:none;
+    border:none;    
 }
 .section_3{
     padding-top:120px;
+    background-color:rgba(250, 250, 250, 1);
 }
-.section_3 .top_content{
+.section_3 .top_content{    
    text-align: center;
 }
 .section_3 .top_content h1{
