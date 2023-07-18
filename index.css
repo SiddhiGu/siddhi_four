@@ -55,6 +55,7 @@ padding-bottom: 50px;
 }
 .section_3 .top_content h1 strong{
     color:#246BFD;
+    font-weight: 500;
 }
 
 
@@ -74,8 +75,9 @@ padding-bottom: 50px;
     width:255px;
     height:255px;
     position: relative;
+
 }
-.section_3 .container .box .topright {
+ection_3 .container .box .topright {
     position: absolute;
     top: 3px;
     right:1px;
