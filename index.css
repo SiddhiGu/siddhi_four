@@ -6,6 +6,7 @@
     align-items: center;
     display:flex;
     gap:104px;
+    padding-bottom:165px;
 }
 .section_2 .section_2_content .left_column img{
     width:100%;
